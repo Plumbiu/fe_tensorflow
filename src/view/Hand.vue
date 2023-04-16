@@ -67,7 +67,7 @@ const detectHand = async () => {
   const hands = await detector.estimateHands(video.value, {
     flipHorizontal: false,
   })
-  handnetOutputCtx.drawImage( video.value as CanvasImageSource, 0, 0, videoWidth, videoHeight)
+  handnetOutputCtx.drawImage(video.value as CanvasImageSource, 0, 0, videoWidth, videoHeight)
   const rightPointList = hands[0]?.keypoints || []
   const leftPointList = hands[1]?.keypoints || []
   // 画出所有关键点
