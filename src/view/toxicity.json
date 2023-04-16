@@ -1,0 +1,51 @@
+[
+  {
+    "text": "hello",
+    "label": "人身攻击",
+    "warm": "99.98%",
+    "cold": "0.02%",
+    "match": false
+  },
+  {
+    "text": "hello",
+    "label": "侮辱",
+    "warm": "99.83%",
+    "cold": "0.17%",
+    "match": false
+  },
+  {
+    "text": "hello",
+    "label": "淫秽",
+    "warm": "99.91%",
+    "cold": "0.09%",
+    "match": false
+  },
+  {
+    "text": "hello",
+    "label": "剧毒的",
+    "warm": "100%",
+    "cold": "0.00%",
+    "match": false
+  },
+  {
+    "text": "hello",
+    "label": "露骨",
+    "warm": "99.97%",
+    "cold": "0.03%",
+    "match": false
+  },
+  {
+    "text": "hello",
+    "label": "威胁",
+    "warm": "99.96%",
+    "cold": "0.04%",
+    "match": false
+  },
+  {
+    "text": "hello",
+    "label": "带毒的",
+    "warm": "99.7%",
+    "cold": "0.30%",
+    "match": false
+  }
+]
