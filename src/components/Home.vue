@@ -89,8 +89,8 @@ const fnTable = [
       <ElTableColumn center prop="label" label="功能"></ElTableColumn>
       <ElTableColumn prop="finish" label="是否完善">
         <template #default="scope">
-          <ElTag v-if="scope.row.finish" type="success">√</ElTag>
-          <ElTag v-else type="success">×</ElTag>
+          <ElTag v-if="scope.row.finish">√</ElTag>
+          <ElTag v-else type="danger">×</ElTag>
         </template>
       </ElTableColumn>
     </ElTable>
